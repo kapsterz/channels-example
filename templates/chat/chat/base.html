@@ -38,18 +38,18 @@
                     <li>
                         <a href="#">Chat</a>
                         <ul>
-                            <li><a href="#">Моделисты</a></li>
-                            <li><a href="#">Кибервоины</a></li>
-                            <li><a href="#">Криптологи</a></li>
+                            <li><a href="{% url 'modelists' %}">Моделисты</a></li>
+                            <li><a href="{% url 'ciber' %}">Кибервоины</a></li>
+                            <li><a href="{% url 'crypt' %}">Криптологи</a></li>
                             <li>
-                                <a href="#">ФЕшники</a>
+                                <a href="{% url 'FE' %}">ФЕшники</a>
                             </li>
-                            <li><a href="#">Физики</a></li>
+                            <li><a href="{% url 'physic' %}">Физики</a></li>
                         </ul>
                     </li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
-                    <li><a href="donate.html">Donate</a></li>
+                    <li><a href="{% url 'about' %}">About Us</a></li>
+                    <li><a href="{% url 'contacts' %}">Contacts</a></li>
+                    <li><a href="{% url 'donate' %}">Donate</a></li>
                 </ul>
             </nav>
 
@@ -66,7 +66,7 @@
                 <h2>We are glad to see you here. Stay with us!</h2>
                 <p>
                     If you liked our progect please donate some money and we will make this service better!<br/>
-                    <a href="donate.html">Click here!</a> <br/>
+                    <a href="{% url 'donate' %}">Click here!</a> <br/>
                     Our perfect team!
                 </p>
             </header>
