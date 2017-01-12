@@ -38,13 +38,12 @@
                     <li>
                         <a href="{% url 'selchat' %}">Chat</a>
                         <ul>
-                            <li><a href="/modelists/">Моделисты</a></li>
-                            <li><a href="/ciber/">Кибервоины</a></li>
-                            <li><a href="/crypt/">Криптологи</a></li>
-                            <li>
-                                <a href="/FE/">ФЕшники</a>
-                            </li>
-                            <li><a href="/physic/">Физики</a></li>
+                            <li><a href="/modelists/">Modelists</a></li>
+                            <li><a href="/ciber/">Cyber-warriors</a></li>
+                            <li><a href="/crypt/">Cryptologys</a></li>
+                            <li><a href="/FE/">FEs</a></li>
+                            <li><a href="/physic/">Physics</a></li>
+                            <li><a href="/public/">Public</a></li>
                         </ul>
                     </li>
                     <li><a href="{% url 'about' %}">About Us</a></li>
@@ -56,7 +55,7 @@
         </div>
     </header>
 
-{% block content %}{% endblock content %}
+    {% block content %}{% endblock content %}
 
     <!-- Footer -->
     <div id="footer-wrapper" class="wrapper">

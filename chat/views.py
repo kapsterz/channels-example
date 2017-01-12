@@ -22,6 +22,10 @@ def about(request):
     return render(request, "chat/chat/about.html")
 
 
+def success(request):
+    return render(request, "chat/chat/success.html")
+
+
 def selchat(request):
     return render(request, "chat/chat/selchat.html")
 

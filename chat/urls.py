@@ -7,6 +7,7 @@ urlpatterns = [
     url(r'^about/$', views.about, name='about'),
     url(r'^contacts/$', views.contacts, name='contacts'),
     url(r'^selchat/$', views.selchat, name='selchat'),
+    url(r'^success/$', views.success, name='success'),
     url(r'^new/$', views.new_room, name='new_room'),
     url(r'^(?P<label>[\w-]{,50})/$', views.chat_room, name='chat_room'),
 ]
