@@ -22,6 +22,10 @@ def about(request):
     return render(request, "chat/chat/about.html")
 
 
+def selchat(request):
+    return render(request, "chat/chat/selchat.html")
+
+
 def new_room(request):
     """
     Randomly create a new room, and redirect to it.
