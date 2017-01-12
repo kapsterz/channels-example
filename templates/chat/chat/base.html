@@ -13,10 +13,10 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!--[if lte IE 8]>
-    <script src="../../../chat/static/js/ie/html5shiv.js"></script><![endif]-->
+    <script src="{% static 'js/ie/html5shiv.js'%}"></script><![endif]-->
     <link rel="stylesheet" href="{% static 'css/main.css' %}"/>
     <!--[if lte IE 8]>
-    <link rel="stylesheet" href="../../../chat/static/css/ie8.css"/><![endif]-->
+    <link rel="stylesheet" href="{% static 'css/ie8.css' %}"/><![endif]-->
 </head>
 <body class="homepage">
 <div id="page-wrapper">
@@ -27,14 +27,14 @@
 
             <!-- Logo -->
             <div id="logo">
-                <h1><a href="index.html">Hack Space</a></h1>
+                <h1><a href="{% url 'index' %}">Hack Space</a></h1>
                 <p>Space for PTI students were they can talk about is problems</p>
             </div>
 
             <!-- Nav -->
             <nav id="nav">
                 <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
+                    <li class="current"><a href="{% url 'index' %}">Home</a></li>
                     <li>
                         <a href="#">Chat</a>
                         <ul>
@@ -84,14 +84,14 @@
 
 <!-- Scripts -->
 
-<script src="../../../chat/static/js/jquery.min.js"></script>
-<script src="../../../chat/static/js/jquery.dropotron.min.js"></script>
-<script src="../../../chat/static/js/skel.min.js"></script>
-<script src="../../../chat/static/js/skel-viewport.min.js"></script>
-<script src="../../../chat/static/js/util.js"></script>
+<script src="{% static 'js/jquery.min.js' %}"></script>
+<script src="{% static 'js/jquery.dropotron.min.js' %}"></script>
+<script src="{% static 'js/skel.min.js' %}"></script>
+<script src="{% static 'js/skel-viewport.min.js' %}"></script>
+<script src="{% static 'js/util.js' %}"></script>
 <!--[if lte IE 8]>
-<script src="../../../chat/static/js/ie/respond.min.js"></script><![endif]-->
-<script src="../../../chat/static/js/main.js"></script>
+<script src="{% static 'js/ie/respond.min.js' %}"></script><![endif]-->
+<script src="{% static 'js/main.js' %}"></script>
 
 </body>
 </html>
