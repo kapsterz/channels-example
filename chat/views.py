@@ -9,6 +9,18 @@ from .models import Room
 def index(request):
     return render(request, "chat/chat/index.html")
 
+
+def donate(request):
+    return render(request, "chat/chat/donate.html")
+
+def contacts(request):
+    return render(request, "chat/chat/contacts.html")
+
+
+def about(request):
+    return render(request, "chat/chat/about.html")
+
+
 def new_room(request):
     """
     Randomly create a new room, and redirect to it.
