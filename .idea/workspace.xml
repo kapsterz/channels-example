@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ce316a2-e016-4997-90c1-022815cf6ff9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/main.css" afterPath="$PROJECT_DIR$/static/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/chat/chat/selchat.html" afterPath="$PROJECT_DIR$/templates/chat/chat/selchat.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -81,17 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selchat.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="selchat.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/chat/chat/selchat.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <element signature="e#504#1449#0#HTML" expanded="false" />
+                <element signature="e#1470#2469#0#HTML" expanded="false" />
+                <element signature="e#2490#3404#0#HTML" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="371">
@@ -154,11 +158,11 @@
         <option value="$PROJECT_DIR$/templates/chat/chat/contacts.html" />
         <option value="$PROJECT_DIR$/templates/chat/chat/donate.html" />
         <option value="$PROJECT_DIR$/templates/chat/chat/index.html" />
-        <option value="$PROJECT_DIR$/templates/chat/chat/selchat.html" />
         <option value="$PROJECT_DIR$/templates/chat/chat/base.html" />
         <option value="$PROJECT_DIR$/chat/urls.py" />
         <option value="$PROJECT_DIR$/chat/views.py" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
+        <option value="$PROJECT_DIR$/templates/chat/chat/selchat.html" />
       </list>
     </option>
   </component>
@@ -876,19 +880,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/chat/chat/selchat.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="22" lean-forward="true" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="1366" column="27" lean-forward="false" selection-start-line="1366" selection-start-column="27" selection-end-line="1366" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/chat/chat/selchat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#504#1449#0#HTML" expanded="false" />
+            <element signature="e#1470#2469#0#HTML" expanded="false" />
+            <element signature="e#2490#3404#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
