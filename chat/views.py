@@ -5,7 +5,8 @@ from django.shortcuts import render, redirect
 import haikunator
 from .models import Room
 
-def about(request):
+
+def index(request):
     return render(request, "chat/chat/index.html")
 
 def new_room(request):
