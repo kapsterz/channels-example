@@ -13,6 +13,7 @@ def index(request):
 def donate(request):
     return render(request, "chat/chat/donate.html")
 
+
 def contacts(request):
     return render(request, "chat/chat/contacts.html")
 
